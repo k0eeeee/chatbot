@@ -1,0 +1,19 @@
+# .gitignore
+
+# 보안 및 민감 정보
+*.env
+
+*.ipynb
+
+# 생성된 데이터 및 모델 파일
+*.pkl
+*.npy
+
+# 대용량 데이터 파일
+*.csv
+
+# Python 캐시 파일
+__pycache__/
+
+# Jupyter Notebook 체크포인트 (자동 생성)
+.ipynb_checkpoints/
